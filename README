@@ -1,0 +1,14 @@
+The website of The Composer (originally http://the.mposer.co)
+
+Made freely available to the public domain. See LICENSE for more details and
+the copyright page inside the website for more information.
+
+The main point of entry is the init() function in the 06_tc_controller.js file.
+
+Note: the audio file loader uses XMLHttpRequest(), which means that the media
+files must be located on an actual web server. If you open the index.html file
+locally, you will see a lot of errors about XMLHttpRequest, since these URLs
+will be relative to a file:// and not http:// protocol.
+
+You can either start a local web server on your machine, or upload these files
+to a web server.
